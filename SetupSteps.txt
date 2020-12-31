@@ -1,0 +1,18 @@
+CUCUMBER for IntelliJ:
+
+1.	Go to “ https://github.com/cucumber/cucumber-java-skeleton/blob/main/pom.xml “ to get the dependencies.
+
+2.	Imp: Feature files should be in seperate directory calles "resources".So under "src/test/" create a "resources"
+    directory and then feature filesCreate a package and feature file > Run
+
+3. Runner and Step definition files should be in src/test/java...
+   and feature files should be in "/src/test/resources"
+
+4. Also, intall "Cucumber for Java" and "Gherkin" plugin
+
+5. To give tage from CLI:
+    Note: Remove tags from runner file
+
+        mvn test -Dcucumber.filter.tage="@Smoke or @Regression"
+
+6. @Before and @after

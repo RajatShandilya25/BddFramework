@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.Runner.Search_Test" time="0.851" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/praveensharma/IdeaProjects/Cucumber_BDD_Framework/target/test-classes:/Users/praveensharma/IdeaProjects/Cucumber_BDD_Framework/target/classes:/Users/praveensharma/.m2/repository/io/cucumber/cucumber-java/6.9.1/cucumber-java-6.9.1.jar:/Users/praveensharma/.m2/repository/io/cucumber/cucumber-core/6.9.1/cucumber-core-6.9.1.jar:/Users/praveensharma/.m2/repository/io/cucumber/cucumber-gherkin/6.9.1/cucumber-gherkin-6.9.1.jar:/Users/praveensharma/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.9.1/cucumber-gherkin-messages-6.9.1.jar:/Users/praveensharma/.m2/repository/io/cucumber/messages/13.2.1/messages-13.2.1.jar:/Users/praveensharma/.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/praveensharma/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/praveensharma/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/praveensharma/.m2/repository/io/cucumber/cucumber-plugin/6.9.1/cucumber-plugin-6.9.1.jar:/Users/praveensharma/.m2/repository/io/cucumber/docstring/6.9.1/docstring-6.9.1.jar:/Users/praveensharma/.m2/repository/io/cucumber/html-formatter/9.0.0/html-formatter-9.0.0.jar:/Users/praveensharma/.m2/repository/io/cucumber/create-meta/2.0.4/create-meta-2.0.4.jar:/Users/praveensharma/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/praveensharma/.m2/repository/io/cucumber/cucumber-junit/6.9.1/cucumber-junit-6.9.1.jar:/Users/praveensharma/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/praveensharma/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="cucumber.filter.tage" value="@Smoke or @Regression"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/praveensharma/IdeaProjects/Cucumber_BDD_Framework/target/surefire/surefirebooter416217702629538901.jar /Users/praveensharma/IdeaProjects/Cucumber_BDD_Framework/target/surefire 2020-12-30T19-31-08_976-jvmRun1 surefire4599670620493021930tmp surefire_022211336929185108tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/praveensharma/IdeaProjects/Cucumber_BDD_Framework/target/test-classes:/Users/praveensharma/IdeaProjects/Cucumber_BDD_Framework/target/classes:/Users/praveensharma/.m2/repository/io/cucumber/cucumber-java/6.9.1/cucumber-java-6.9.1.jar:/Users/praveensharma/.m2/repository/io/cucumber/cucumber-core/6.9.1/cucumber-core-6.9.1.jar:/Users/praveensharma/.m2/repository/io/cucumber/cucumber-gherkin/6.9.1/cucumber-gherkin-6.9.1.jar:/Users/praveensharma/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.9.1/cucumber-gherkin-messages-6.9.1.jar:/Users/praveensharma/.m2/repository/io/cucumber/messages/13.2.1/messages-13.2.1.jar:/Users/praveensharma/.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/praveensharma/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/praveensharma/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/praveensharma/.m2/repository/io/cucumber/cucumber-plugin/6.9.1/cucumber-plugin-6.9.1.jar:/Users/praveensharma/.m2/repository/io/cucumber/docstring/6.9.1/docstring-6.9.1.jar:/Users/praveensharma/.m2/repository/io/cucumber/html-formatter/9.0.0/html-formatter-9.0.0.jar:/Users/praveensharma/.m2/repository/io/cucumber/create-meta/2.0.4/create-meta-2.0.4.jar:/Users/praveensharma/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/praveensharma/.m2/repository/io/cucumber/cucumber-junit/6.9.1/cucumber-junit-6.9.1.jar:/Users/praveensharma/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/praveensharma/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/praveensharma"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/praveensharma/IdeaProjects/Cucumber_BDD_Framework"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/praveensharma/IdeaProjects/Cucumber_BDD_Framework/target/surefire/surefirebooter416217702629538901.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_231-b11"/>
+    <property name="user.name" value="praveensharma"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.14.5"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/praveensharma/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/ny/65rk6cc92lv_mgkg_5kp5n3h0000gn/T/"/>
+    <property name="java.version" value="1.8.0_231"/>
+    <property name="user.dir" value="/Users/praveensharma/IdeaProjects/Cucumber_BDD_Framework"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/praveensharma/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.231-b11"/>
+    <property name="java.ext.dirs" value="/Users/praveensharma/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="Add product to cart" classname="Amazon cart" time="0.21">
+    <system-out><![CDATA[
+@Smoke
+Scenario: Add product to cart        &amp#27;[90m# src/test/resources/Feature/Cart.feature:11&amp#27;[0m
+Product is available
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mproduct is available&amp#27;[0m         &amp#27;[90m# com.StepDefinition.Cart_Steps.product_is_available()&amp#27;[0m
+Product detail page opened
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI open product detail page&amp#27;[0m    &amp#27;[90m# com.StepDefinition.Cart_Steps.i_open_product_detail_page()&amp#27;[0m
+Add to cart button is visible
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThere should be a cart button&amp#27;[0m &amp#27;[90m# com.StepDefinition.Cart_Steps.there_should_be_a_cart_button()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Search a product" classname="Amazon Search" time="0.017">
+    <system-out><![CDATA[
+@Smoke
+Scenario: Search a product                          &amp#27;[90m# src/test/resources/Feature/Search.feature:11&amp#27;[0m
+Search box is present
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThere should be a search box on Amazon page&amp#27;[0m &amp#27;[90m# com.StepDefinition.Search_Steps.there_should_be_a_search_box_on_amazon_page()&amp#27;[0m
+I searched for Mackbook Pro
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI search for the product &amp#27;[0m&amp#27;[32m&amp#27;[1m"Mackbook Pro"&amp#27;[0m      &amp#27;[90m# com.StepDefinition.Search_Steps.i_search_for_the_product(java.lang.String)&amp#27;[0m
+and the product price is $1000
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mprice is &amp#27;[0m&amp#27;[32m&amp#27;[1m"$1000"&amp#27;[0m                              &amp#27;[90m# com.StepDefinition.Search_Steps.price_is(java.lang.String)&amp#27;[0m
+Mackbook Pro is displayed
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1m"Mackbook Pro"&amp#27;[0m&amp#27;[32m should be displayed&amp#27;[0m           &amp#27;[90m# com.StepDefinition.Search_Steps.should_be_displayed(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Search a product in app" classname="Amazon Search" time="0.017">
+    <system-out><![CDATA[
+@Regression
+Scenario: Search a product in app                          &amp#27;[90m# src/test/resources/Feature/Search.feature:18&amp#27;[0m
+Search box is present
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThere should be a search box on Amazon application&amp#27;[0m &amp#27;[90m# com.StepDefinition.Search_Steps.there_should_be_a_search_box_on_amazon_application()&amp#27;[0m
+I searched for Mackbook Air
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI search for the product &amp#27;[0m&amp#27;[32m&amp#27;[1m"Mackbook Air"&amp#27;[0m&amp#27;[32m in app&amp#27;[0m      &amp#27;[90m# com.StepDefinition.Search_Steps.i_search_for_the_product_in_app(java.lang.String)&amp#27;[0m
+and the product price is $1000
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mprice is &amp#27;[0m&amp#27;[32m&amp#27;[1m"$1000"&amp#27;[0m                                     &amp#27;[90m# com.StepDefinition.Search_Steps.price_is(java.lang.String)&amp#27;[0m
+Mackbook Air is displayed
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1m"Mackbook Air"&amp#27;[0m&amp#27;[32m should be displayed in the results&amp#27;[0m   &amp#27;[90m# com.StepDefinition.Search_Steps.should_be_displayed_in_the_results(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
