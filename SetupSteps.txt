@@ -16,3 +16,5 @@ CUCUMBER for IntelliJ:
         mvn test -Dcucumber.filter.tage="@Smoke or @Regression"
 
 6. @Before and @after
+
+7. Always use Examples keyword with scenario outline. It is used for data driven testing

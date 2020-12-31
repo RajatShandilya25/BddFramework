@@ -8,13 +8,12 @@
 #Background: Define conditions which will run before every scenario
 
 #Hooks:
-#       @Before, @BeforeStep, @After and @AfterStep can also be used in a separate config file to mention
-#       before and after conditions. Also add hooks package in runner file
+#       @Before, @BeforeStep, @After and @AfterStep can also be written in a separate java class for
+#       before and after conditions. Also add hooks package name in "glue" option in runner file
 
-# Hooks can also be used with tags in feature file:
-#          @Before("@Smoke")
 
 Feature: Amazon Search
+
 
   Background:
     Given User should be able to login
@@ -35,3 +34,7 @@ Feature: Amazon Search
     When I search for the product "Mackbook Air" in app
     And price is "$1000"
     Then "Mackbook Air" should be displayed in the results
+
+
+
+

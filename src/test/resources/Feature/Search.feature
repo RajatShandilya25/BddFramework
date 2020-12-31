@@ -14,6 +14,7 @@
 
 Feature: Amazon Search
 
+
   Background:
     Given User should be able to login
 
@@ -33,3 +34,7 @@ Feature: Amazon Search
     When I search for the product "Mackbook Air" in app
     And price is "$1000"
     Then "Mackbook Air" should be displayed in the results
+
+
+
+

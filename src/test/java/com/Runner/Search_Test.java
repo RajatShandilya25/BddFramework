@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features= {"/Users/praveensharma/IdeaProjects/Cucumber_BDD_Framework/src/test/resources/Feature"},
         glue = {"com.StepDefinition", "com.Hooks"},
-//        tags = "@Smoke",
+//        tags = "not @Sanity",
         plugin = {"pretty"})
 
 public class Search_Test
