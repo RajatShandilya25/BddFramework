@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features= {"/Users/praveensharma/IdeaProjects/Cucumber_BDD_Framework/src/test/resources/Feature"},
+        features= {"/Users/praveensharma/IdeaProjects/Cucumber_BDD_Framework/src/test/resources/Feature/LoginPage.feature"},
         glue = {"com.StepDefinition", "com.Hooks"},
 //        tags = "not @Sanity",
         plugin = {"pretty"})
